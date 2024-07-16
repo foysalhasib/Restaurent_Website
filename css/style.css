@@ -1,0 +1,491 @@
+/* ================================= common css start========================================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 1380px;
+}
+/* ================================= common css end=========================================== */
+
+/* ============================= navbar part srat  ===================================== */
+.navbar {
+  position: absolute;
+  width: 100%;
+}
+.navbar .navbar-nav {
+  align-items: center;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  padding: 0;
+  column-gap: 65px;
+  color: #242323;
+  font-family: Poppins;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.22px;
+}
+.navbar .navbar-nav .nav-item .active {
+  color: #7dd87d;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #7dd87d;
+}
+.navbar .navbar-nav {
+  column-gap: 60px;
+}
+.navbar .Order_button button {
+  margin-left: 80px;
+  display: inline-block;
+  background: #7dd87d;
+  color: #fff;
+  padding: 17px 32px;
+  border-radius: 30px;
+  border: none;
+  font-size: 17px;
+  font-weight: 700;
+}
+.navbar .Order_button button:hover {
+  color: black;
+}
+
+/* ============================= navbar part end  ===================================== */
+
+/* ============================= banner part start  ===================================== */
+#banner_part {
+  padding-top: 90px;
+}
+
+#banner_part .row h1 {
+  margin-top: 190px;
+  font-size: 30px;
+  line-height: 1.1;
+  color: #f54300;
+}
+#banner_part .row h2 {
+  margin-top: 10px;
+  color: black;
+  font-size: 55px;
+  font-weight: 600;
+  width: 465px;
+}
+#banner_part .row p {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #999fb9;
+  line-height: 27px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-family: "opens sans", sans-serif;
+  width: 585px;
+}
+
+#banner_part .row .image img {
+  width: 100%;
+}
+#banner_part button {
+  display: inline-block;
+  background: #7dd87d;
+  color: #fff;
+  padding: 13px 32px;
+  border-radius: 30px;
+  border: none;
+  font-size: 17px;
+  font-weight: 700;
+}
+#banner_part button a {
+  color: rgb(255, 255, 255);
+}
+#banner_part button a:hover {
+  color: black;
+}
+
+/* ============================= banner part end  ===================================== */
+/* ============================= About part start ===================================== */
+
+#about_part {
+  padding-top: 150px;
+}
+
+#about_part .row h2 {
+  margin-top: 130px;
+  font-size: 30px;
+  line-height: 1.1;
+  color: #f54300;
+}
+#about_part .row h3 {
+  margin-top: 10px;
+  color: black;
+  font-size: 55px;
+  font-weight: 600;
+}
+#about_part .row p {
+  margin-top: 30px;
+  font-size: 18px;
+  color: #999fb9;
+  line-height: 27px;
+  font-weight: 400;
+  margin-bottom: 30px;
+  font-family: "opens sans", sans-serif;
+  width: 585px;
+}
+
+#about_part .row .image img {
+  width: 100%;
+}
+#about_part button {
+  display: inline-block;
+  background: #7dd87d;
+  color: #fff;
+  padding: 13px 32px;
+  border-radius: 30px;
+  border: none;
+  font-size: 17px;
+  font-weight: 700;
+}
+#about_part button a {
+  color: rgb(255, 255, 255);
+}
+#about_part button a:hover {
+  color: black;
+}
+
+/* ============================= About part end ===================================== */
+/* ============================= Menu part start ===================================== */
+#menu_part {
+  padding-top: 150px;
+}
+#menu_part h2 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.1;
+  color: #f54300;
+}
+#menu_part h3 {
+  margin-top: 8px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.1;
+  color: #141313;
+}
+#menu_part .card {
+  margin: 25px 20px;
+  width: 320px;
+  height: 400px;
+}
+#menu_part .card:hover {
+  transform: scale(1.08);
+  transition: all linear 0.4s;
+}
+#menu_part .card img {
+  height: 180px;
+}
+
+#menu_part .price {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.1;
+  color: #f54300;
+}
+
+#menu_part .button button {
+  margin: 30px auto;
+  display: flex;
+  background: #7dd87d;
+  color: #fff;
+  padding: 13px 32px;
+  border-radius: 30px;
+  border: none;
+  font-size: 17px;
+  font-weight: 700;
+}
+#menu_part button a {
+  color: rgb(255, 255, 255);
+}
+#menu_part button a:hover {
+  color: black;
+}
+
+/* ============================= Menu part end ===================================== */
+/* ============================= Team part start==================================== */
+#team_part {
+  padding-top: 150px;
+}
+#team_part h2 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.1;
+  color: #f54300;
+}
+#team_part h3 {
+  margin-top: 8px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.1;
+  color: #141313;
+}
+#team_part .card {
+  margin: 25px 20px;
+  width: 280px;
+  height: 280px;
+  box-shadow: 5px 5px 5px 5px #999fb9;
+}
+#team_part .card:hover {
+  transform: scale(1.08);
+  transition: all linear 0.4s;
+}
+#team_part .card img {
+  border-radius: 100%;
+  border: 5px solid #7dd87d;
+  width: 140px;
+  height: 140px;
+  margin: 20px auto;
+}
+#team_part .card .card-body h5 {
+  text-align: center;
+  font-size: 20px;
+  line-height: 1.1;
+  color: #f54300;
+}
+#team_part .card .card-body p {
+  margin-top: 8px;
+  margin-bottom: 14px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.1;
+  color: #999fb9;
+}
+/* ============================= Team part end ===================================== */
+/* ============================= Blog part start ===================================== */
+#blog_part {
+  padding-top: 150px;
+}
+#blog_part h2 {
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.1;
+  color: #f54300;
+}
+#blog_part h3 {
+  margin-top: 8px;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 40px;
+  line-height: 1.1;
+  color: #141313;
+}
+#blog_part .card {
+  margin: 25px 20px;
+  width: 380px;
+  height: 480px;
+  box-shadow: 5px 5px 5px 5px #999fb9;
+}
+#blog_part .card:hover {
+  transform: scale(1.08);
+  transition: all linear 0.4s;
+}
+#blog_part .card .card_body h2 {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 12px;
+  line-height: 1.1;
+  color: #f54300;
+}
+#blog_part .card .card_body h3 {
+  margin-top: 20px;
+  text-align: center;
+  font-size: 32px;
+  line-height: 1.1;
+  color: #0b0a0a;
+}
+#blog_part .card .card_body h4 {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.1;
+  color: #f54300;
+}
+/* =============================  Blog part end ===================================== */
+/* ======================form-part start===================== */
+#form-part {
+  padding-top: 150px;
+}
+#form-part .left {
+  padding-top: 327px;
+  padding-bottom: 327px;
+}
+#form-part .form {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+#form-part .left h2 {
+  width: 470px;
+  color: var(--dark-01, #151515);
+  font-family: Inter;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+#form-part .left h3 {
+  width: 514px;
+  color: var(--dark-03, #7b7b7b);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 20px;
+}
+#form-part .left p {
+  width: 526px;
+  color: var(--dark-03, #737373);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 10px;
+}
+
+#form-part .form {
+  width: 536px;
+}
+#form-part .form form {
+  background-color: rgb(112, 236, 178);
+  width: 100%;
+  padding: 61px 43px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+#form-part .form form h4 {
+  color: var(--dark-01, #151515);
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-align: center;
+}
+#form-part .form form label {
+  color: var(--dark-01, #151515);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+#form-part .form form input {
+  color: var(--dark-05, #d0d0d0);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding: 19px 23px;
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+  outline: 0;
+  margin-bottom: 20px;
+}
+
+#form-part .form form button {
+  border-radius: 10px;
+  background: var(--primary-color, #6a4df4);
+  padding: 19px 147px;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  border: 0;
+  margin-top: 10px;
+}
+
+/* ======================form-part end===================== */
+/* ======================footer-part start===================== */
+footer {
+  margin-top: 60px;
+}
+footer p {
+  width: 356px;
+  color: var(--dark-03, #7b7b7b);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  padding-top: 30px;
+}
+
+footer .main {
+  display: flex;
+  justify-content: flex-end;
+  column-gap: 131px;
+}
+footer .main h5 {
+  color: var(--dark-01, #151515);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+footer .main li a {
+  color: var(--dark-03, #7b7b7b);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+.end {
+  background: #fff;
+  padding: 33px 0;
+  text-align: center;
+  border-top: 1px solid #e8e8e8;
+  margin-top: 50px;
+}
+.end span {
+  color: #ff6161;
+  font-size: 24;
+  font-weight: bold;
+}
+
+/* ======================footer-part end===================== */
